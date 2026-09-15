@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "jrbs",
+	"version": "${version}",
+	"name": "JRBS",
+	"description": "Just random BS I made",
+	"authors": [
+		"Ashy146"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jrbs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.ashy146.JRBS"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
