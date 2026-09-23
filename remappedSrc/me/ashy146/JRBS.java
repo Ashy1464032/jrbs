@@ -4,9 +4,6 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import me.ashy146.Networking.Payloads.PlayerDashServerboundPayload;
-import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;   
-
 public class JRBS implements ModInitializer {
 	//Mod ID
 	public static final String MOD_ID = "jrbs";
@@ -18,9 +15,6 @@ public class JRBS implements ModInitializer {
 	public void onInitialize() {
 		//Print Init Message
 		LOGGER.info("[JRBS] Initialised");
-		
-		//Payloads
-		PayloadTypeRegistry.playC2S().register(PlayerDashServerboundPayload.TYPE, PlayerDashServerboundPayload.CODEC);
 	}
 	
 	

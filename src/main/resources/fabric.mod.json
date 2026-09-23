@@ -16,7 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"me.ashy146.JRBS"
+			"me.ashy146.JRBS",
+			"me.ashy146.Networking.ServerSidePacketHandler"
+		],
+		"client": [
+			"me.ashy146.Utils.KeyMappings"
+		],
+		"fabric-datagen": [
+			"me.ashy146.DataGen.JRBSDataGenerator"
 		]
 	},
 	"mixins": [],
